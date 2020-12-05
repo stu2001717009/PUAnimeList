@@ -1,0 +1,102 @@
+body{
+    background-color: #e6e6e6;
+}
+
+.anime-container-card{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.anime-container-list{
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.anime-card{
+    display: flex;
+    width: 470px;
+    margin: 0px 20px 20px 0px;
+    background-color: #fbfbfb;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.anime-item-content{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.anime-item-content div{
+    color: #838383;
+}
+
+.anime-item-content .score{
+    color: gold;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.checked{
+    color: gold;
+}
+
+.custom-container{
+    padding: 30px 0px 0px 30px;
+}
+
+.filters{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.select-container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.action-button{
+    cursor: pointer;
+    color: #9773d0;
+}
+
+.table-wrapper{
+    overflow-y: scroll;
+    max-height: calc(100vh - 200px);
+}
+
+.table-wrapper th{
+    position: sticky;
+    top: 0;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    background: #DDD;
+}
+
+td,th{
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

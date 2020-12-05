@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Anime list</title>
+</head>
+
+<body>
+    <div class="custom-container">
+        <div class="header">
+            <div class="filters">
+                <div class="select-container">
+                    <div>Sort</div>
+                    <select class="browser-default custom-select" id="sort-select">
+                        <option value="1">Ascending</option>
+                        <option value="2">Descending</option>
+                    </select>
+                </div>
+
+                <div class="select-container">
+                    <div>Order by</div>
+                    <select class="browser-default custom-select" id="order-select">
+                        <option value="1">Title</option>
+                        <option value="2">Score</option>
+                        <option value="3">Start date</option>
+                        <option value="4">Finish date</option>
+                    </select>
+                </div>
+            </div>
+            <div class="action-button">
+                <span id="state-of-view" class="fa fa-bars fa-2x"></span>
+            </div>
+        </div>
+        <div id="animes" class="anime-container-card"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="./js//main.js"></script>
+</body>
+
+</html>
